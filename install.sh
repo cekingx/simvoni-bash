@@ -10,5 +10,5 @@ wget https://github.com/openethereum/openethereum/releases/download/v3.2.6/opene
 unzip openethereum-linux-v3.2.6.zip
 
 chmod +x ethkey ethstore openethereum openethereum-evm
-export PATH="$HOME/openethereum:$PATH"
+echo 'export PATH="$HOME/openethereum:$PATH"' >> ~/.bashrc
 source ~/.bashrc
